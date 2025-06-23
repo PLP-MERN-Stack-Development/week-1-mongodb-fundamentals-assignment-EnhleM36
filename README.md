@@ -45,3 +45,12 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
 - [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+
+## SETUP Instructions
+Download MongoDB: https://www.mongodb.com/try/download/community
+
+Run the MongoDB server:
+mongod
+
+Use the default URI in your .env:
+MONGODB_URI=mongodb://localhost:27017/<dbname>
