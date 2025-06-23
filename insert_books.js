@@ -185,7 +185,7 @@ insertBooks().catch(console.error);
  *    db.books.find()
  *
  * 2. Find books by a specific author:
- *    db.books.find({ author: "George Orwell" })
+ *   db.books.find({ author: "George Orwell" })
  *
  * 3. Find books published after 1950:
  *    db.books.find({ published_year: { $gt: 1950 } })
